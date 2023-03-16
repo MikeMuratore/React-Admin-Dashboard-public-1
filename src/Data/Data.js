@@ -44,7 +44,7 @@ export const SidebarData = [
 // Analytics Cards Data
 export const cardsData = [
   {
-    title: "Sales",
+    title: "Patients",
     color: {
       backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
       boxShadow: "0px 10px 20px 0px #e0c6f5",
@@ -54,13 +54,13 @@ export const cardsData = [
     png: UilUsdSquare,
     series: [
       {
-        name: "Sales",
+        name: "Patients",
         data: [31, 40, 28, 51, 42, 109, 100],
       },
     ],
   },
   {
-    title: "Revenue",
+    title: "Consults",
     color: {
       backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
       boxShadow: "0px 10px 20px 0px #FDC0C7",
@@ -70,13 +70,13 @@ export const cardsData = [
     png: UilMoneyWithdrawal,
     series: [
       {
-        name: "Revenue",
+        name: "Consults",
         data: [10, 100, 50, 70, 80, 30, 40],
       },
     ],
   },
   {
-    title: "Expenses",
+    title: "Procedures",
     color: {
       backGround:
         "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
@@ -87,7 +87,7 @@ export const cardsData = [
     png: UilClipboardAlt,
     series: [
       {
-        name: "Expenses",
+        name: "Procedures",
         data: [10, 25, 15, 30, 12, 15, 20],
       },
     ],
@@ -99,19 +99,19 @@ export const UpdatesData = [
   {
     img: img1,
     name: "Andrew Thomas",
-    noti: "has ordered Apple smart watch 2500mh battery.",
+    noti: "Ext. supernumerary, cyst.",
     time: "25 seconds ago",
   },
   {
     img: img2,
     name: "James Bond",
-    noti: "has received Samsung gadget for charging battery.",
+    noti: "Ext. supernumerary, cyst.",
     time: "30 minutes ago",
   },
   {
     img: img3,
     name: "Iron Man",
-    noti: "has ordered Apple smart watch, samsung Gear 2500mh battery.",
+    noti: "Ext. supernumerary, cyst.",
     time: "2 hours ago",
   },
 ];
